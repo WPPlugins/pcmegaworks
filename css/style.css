@@ -1,0 +1,170 @@
+
+/************* Pop ups *************/
+ .popups{
+   position:fixed;
+   top:0%;
+   left:0%;
+   z-index:10000;
+   padding:8px;
+   height:100%;
+   width:100%;
+   background:#FFFFFF;
+ }
+
+
+ .scrollbox{
+   overflow-y:scroll;
+   height:100%;
+ }
+
+
+ .gpopup{
+   position:fixed;
+   z-index:10000;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   border:1px solid #000000;
+   top:50%;
+   left:50%;
+   padding:8px;
+   height:90%;
+   overflow-y:scroll;
+   width:90vw;
+   background:#fff;
+   transform: translate(-50%, -50%);
+ }
+
+ #popupcontent{
+   height:100%;
+ }
+
+  .closebutton{
+    background: url(../images/x-mark.png)
+         no-repeat;
+    cursor:pointer;
+     position:fixed;
+     top:7px;
+     left:7px;
+  }
+
+  .closebuttonparent{
+    z-index:1000;
+    display: block;
+    float: right;
+    padding: 20px 30px 0px 0px;
+  }
+  /* Outer */
+.popup {
+    width:100%;
+    height:100vh;
+    display:none;
+    position:relative;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:relative;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+    height:85vh;
+}
+
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+.floatleft{
+  float:left;
+}
+
+.floatright{
+  float:right;
+}
+
+.clearboth{
+  clear:both;
+}
+
+.clearleft{
+  clear:left;
+}
+
+.clearright{
+  clear:right;
+}
+
+.c{
+
+}
+
+.pointer{
+ cursor:pointer;
+}
+
+.background-green{
+  background-color:#B2E2B1 !important;
+}
+
+.background-red{
+  background-color:#FFE5E5 !important;
+}
+
+.background-white{
+  background-color:#FFFFFF !important;
+}
+
+.tooltip{
+ position:fixed;
+ border-radius:5px;
+ -moz-border-radius: 5px;
+ padding:5px;
+ font-weight:bold;
+ color:#FFFFFF;
+ z-index:1000;
+ width:50%;
+}
+
+.tooltip-inner{
+ width:100%;
+ margin-top:100px !important;
+}
+                                        
+.vendor-list{
+ font-size:24px;
+}
+
